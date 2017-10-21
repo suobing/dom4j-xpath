@@ -5,20 +5,46 @@
         <DxsNode systemid="SHIBOR"> 
             <Version>V1.0.0</Version>  
             <EnvironmentID>ST</EnvironmentID>  
-            <CLIP></CLIP> 
+            <CLIP/> 
         </DxsNode>  
         <DxsNode systemid="NTPII"> 
             <Version>V1.0.0</Version>  
             <EnvironmentID>ST2</EnvironmentID>  
-            <CLIP></CLIP> 
+            <CLIP/> 
         </DxsNode> 
     </InstallationPath>  
     <InstallationPath path="/home/imt2/"> 
         <DxsNode systemid="SHIBOR"> 
             <Version>V1.0.0</Version>  
             <EnvironmentID>ST3</EnvironmentID>  
-            <CLIP></CLIP> 
+            <CLIP/> 
+        </DxsNode>  
+        <DxsNode systemid="RDI"> 
+            <Version>V1.0.0</Version>  
+            <EnvironmentID>ST4</EnvironmentID>  
+            <CLIP/> 
         </DxsNode> 
     </InstallationPath>  
-    </DxsStore/InstallationPath/>
+    <InstallationPath path="/home/imt3/"> 
+        <DxsNode systemid="TSS"> 
+            <Version>V2.0.0</Version>  
+            <EnvironmentID>UAT</EnvironmentID>  
+            <CLIP>192.1.1.1</CLIP>  
+            <InstallTime>2017-10-21 16:55:34</InstallTime> 
+        </DxsNode> 
+    </InstallationPath>  
+    <InstallationPath path="/home/imt4/"> 
+        <DxsNode systemid="FXCSTP"> 
+            <Version>V5.0.0</Version>  
+            <EnvironmentID>UAT2</EnvironmentID>  
+            <CLIP>192.1.1.168</CLIP>  
+            <InstallTime>2017-10-21 16:57:45</InstallTime> 
+        </DxsNode>  
+        <DxsNode systemid="CSTP"> 
+            <Version>V1.3.0</Version>  
+            <EnvironmentID>UAT2</EnvironmentID>  
+            <CLIP>192.1.1.1</CLIP>  
+            <InstallTime>2017-10-21 17:10:25</InstallTime> 
+        </DxsNode> 
+    </InstallationPath> 
 </DxsStore>
